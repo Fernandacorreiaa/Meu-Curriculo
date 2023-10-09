@@ -1,0 +1,73 @@
+body {
+  font-family: "Franklin Gothic Medium";
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 16px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.column-left {
+  background-color: #f7dee2; /* Cor de fundo da coluna da esquerda */
+  background: #e6ccc8;
+  padding-left: 35px;
+}
+
+.divider {
+  background: #e6ccc8;
+  height: 6px;
+  width: 54%;
+  align-self: flex-end;
+  left: 1rem;
+  position: relative;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+a {
+  color: #000000;
+}
+
+p {
+  margin: 18px;
+  /* Adicione mais estilos conforme necessário */
+}
+
+img {
+  width: 20px;
+  height: 20px;
+  object-fit: fill;
+  border-radius: 50%;
+  border: 4px solid #0a0000;
+}
+
+.mycontainer {
+  display: flex;
+  align-items: center;
+}
+
+.mycontainer > img {
+  margin-right: 6px;
+  margin-bottom: 4px;
+}
+
+.align {
+  position: relative;
+  bottom: 2px;
+}
